@@ -1,0 +1,20 @@
+version: '3'
+services:
+
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 54321
+      MYSQL_DATABASE: flaskapp
+    ports:
+      - "3306:3306"
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+
+  web:
+    build: .
+    ports:
+    - "80:80"
