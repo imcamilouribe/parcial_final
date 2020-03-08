@@ -1,4 +1,4 @@
-# Primer parcial
+# Parcial final - primer corte
 Ejecutar con `docker-compose up --build`
 
 Para simular que el dispositivo IOT accede al servicio y captura la temperatura, acceda a la ruta (0.0.0.0/=iot)
