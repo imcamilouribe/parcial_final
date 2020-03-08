@@ -18,8 +18,6 @@ def temperatura():
         data = json.loads(url.read().decode())
         return(data["main"]["temp"]-273.15)
 
-
-
 def getparams():
     t = time()
     temp = temperatura()
