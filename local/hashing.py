@@ -1,6 +1,5 @@
 import random
 
-
 def hasheo():
     x = 'T000'
 
